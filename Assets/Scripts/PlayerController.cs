@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
         {
             //Launch projectile
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
-            Debug.Log("I have pressed space");
         }
 
     }
